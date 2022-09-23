@@ -1,0 +1,64 @@
+body{
+    max-width: 800px;
+    margin: 0px auto;
+    text-align: center;
+    background-image: url(images/bronze-bullish-stock-market-ilq9j12xsqer9bd9.jpg);
+    background-size: 1366px 635px;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: wavy;
+    text-decoration:underline;
+    color:rgb(247, 108, 9);   
+    margin-bottom: 5rem;
+    margin-top: 5px;
+
+}
+
+div{
+    margin: 3rem;
+}
+
+label{
+    font-size: 2rem;
+    margin: 2rem 1rem;
+    color: rgb(233, 190, 20);
+    font-weight: 900;
+}
+
+input{
+    padding:5px;
+    width: 35%;
+    border: 1px groove black;
+     color:black;/* :rgb(247, 108, 9) */
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    text-align:left;
+}
+
+button{
+    padding: 0.5rem 4rem;
+    margin:0px;
+    font-size: x-large;
+    border-radius: 5px;
+    background-color: black;
+    color:  rgb(233, 190, 20);
+    cursor: pointer;
+}
+
+#output{
+    font-size: x-large;
+    font-weight: 600;
+    background-color:gray;
+}
+
+#quantity{
+    margin-left: 8rem;
+}
+#initial-price{
+    margin-left: 1rem;
+}
