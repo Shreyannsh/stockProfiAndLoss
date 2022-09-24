@@ -1,11 +1,23 @@
 body{
-    max-width: 800px;
-    margin: 0px auto;
+    /* max-width:800px; */
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 24px;
     text-align: center;
     background-image: url(images/bronze-bullish-stock-market-ilq9j12xsqer9bd9.jpg);
     background-size: 1366px 635px;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    
 }
-
+/* .container{
+    background-color: rgba(171, 162, 32,0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(2px);
+    padding: 20px;
+    margin: 30px;
+    font-weight: bold;
+} */
 h1{
     font-size: 3rem;
     font-weight: bolder;
@@ -25,13 +37,13 @@ div{
 label{
     font-size: 2rem;
     margin: 2rem 1rem;
-    color: rgb(250, 238, 5);
+    color: rgb(246, 198, 6);
     font-weight: 900;
 }
 
 input{
     padding:5px;
-    width: 35%;
+    width: 25%;
     border: 1px groove black;
      color:black;/* :rgb(247, 108, 9) */
     font-size: 20px;
