@@ -9,7 +9,7 @@ function calculatingProfitAndLoss() {
     var input1 = initialPrice.value;
     var input2 = quantity.value;
     var input3 = Number(currentPrice.value);
-    if (input1 && input2 && input3 !== "" && input1 > 0 && input2%1=== 0 && input3 >= 0) {
+    if (input1 > 0 && input2 > 0 && input3 > 0 && input2%1=== 0 ) {
         if (input3 > input1) {
             profit = input3 - input1;
             totalProfit = profit * input2;
@@ -32,7 +32,7 @@ function calculatingProfitAndLoss() {
         }
 
     } else {
-        output.innerText= "Kindly enter valid positive values for all 3 entries !!";
+        output.innerText= "Kindly enter valid values for all 3 entries !!";
     }
 }
 
