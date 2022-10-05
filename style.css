@@ -5,8 +5,8 @@ body{
     padding-top: 24px;
     text-align: center;
     background-image: url(images/bronze-bullish-stock-market-ilq9j12xsqer9bd9.jpg);
-    background-size: 1366px 635px;
-    -webkit-backdrop-filter: blur(3px);
+    background-size:cover;
+  -webkit-backdrop-filter: blur(3px);
     backdrop-filter: blur(3px);
     
 }
