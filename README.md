@@ -3,3 +3,5 @@ An App made with Vanilla JS to check how much profit or loss the user is making 
 Stock price for one stock when he bought it.
 Stock quantity as well.
 Current price of that Stock.
+
+Checkout - https://stocklossprofits.netlify.app/
