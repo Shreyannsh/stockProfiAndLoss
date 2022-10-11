@@ -6,8 +6,8 @@ var button = document.querySelector("#button");
 
 function calculatingProfitAndLoss() {
 
-    var input1 = initialPrice.value;
-    var input2 = quantity.value;
+    var input1 = Number(initialPrice.value);
+    var input2 = Number(quantity.value);
     var input3 = Number(currentPrice.value);
     if (input1 > 0 && input2 > 0 && input3 > 0 && input2%1=== 0 ) {
         if (input3 > input1) {
